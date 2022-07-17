@@ -1,7 +1,0 @@
-/* Back to top */
-#back-to-top svg{width:24px;height:24px;vertical-align:-4px}
-#back-to-top:hover svg path{fill:#fff}
-#back-to-top:hover{box-shadow:0 0 .5rem 0rem #444;background: linear-gradient(45deg,#ff6551 0,#ff6551 13%,#ff6551 35%,#ffb351 100%);;);border-radius:50%;border:2px solid #fff}
-#back-to-top{background:#6c6cfe;border:2px solid #fff;color:#444;padding:6px 10px;box-shadow:0 0 .5rem 0rem #444;font-size:24px;border-radius:50%;transition:all .30s ease-in-out}
-.back-to-top:hover{transform:rotate(-45deg)}
-.back-to-top{position:fixed!important;position:absolute;bottom:60px;right:20px;transition:transform .5s ease-out;z-index:998}
