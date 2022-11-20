@@ -1,0 +1,148 @@
+#show-ga {
+    text-align:center;
+    margin: 150px 0;
+  }
+  .npc-ga-1 {
+    background: #fff;
+    max-width: 715px;
+    position: relative;    
+    display: inline-block;
+  }
+  .npc-ga-1 ul {
+    margin: 0;
+      padding: 0;
+  }
+  .npc-ga-1 ul li {
+    list-style-type: none;
+      width: 50%;
+      float: left;
+      position: relative;
+  }
+  .npc-ga-1 .ga-img {
+      width: 341px;
+      height: 179px;
+      overflow: hidden;
+  }
+  .ga-img img {
+      width: 100%;
+      height: 100%;
+  }
+  .ga-info {
+      padding: 5px 0;
+  }
+  .ga-info h2 {
+      margin: 0;
+    font-size: 22px;
+    font-weight: 500;
+    color: #212121;
+  }
+  .ga-info h2 a {
+    text-decoration: none;
+      color: #212121;
+      font-family: 'Roboto', san-serif;
+  }
+  .ga-info p {
+    margin: 10px 0;
+      position: relative;
+  }
+  .ga-info p a {
+      font-size: 20px;
+    color: #666;
+    text-decoration: none;
+    position: relative;
+    font-family: 'Roboto', san-serif;
+  }
+  .ga-info p a:before {
+      content: "ADS";
+    background: green;
+    padding: 1px 3px;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 15px;
+    display: inline-block;
+    margin-right: 5px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .ga-info p a:hover {
+    text-decoration: underline;
+  }
+  .ga-link a {
+      font-size: 16px;
+    text-decoration: none;
+    color: #999;
+    font-family: 'Roboto', san-serif;
+  }
+  .ga-link a:hover {
+      text-decoration: underline;
+  }
+  .ga-more {
+      margin-top: 25px;
+  }
+  .ga-more a {
+      background-color: #4e92df;
+    border-radius: 6px;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.12), 0 2px 2px 0 rgba(0,0,0,0.24);
+    font-family: "Roboto",sans-serif;
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 23px;
+  }
+  .ga-tool {
+      position: absolute;
+    top: 0;
+      right: 0;
+  }
+  .ga-tool a {
+      text-decoration: none;
+      position: relative;
+  }
+  .ga-tool a:before {
+      font-family: 'font awesome 5 pro';
+      color: #00aecd;
+      transition: all 0.3s ease;
+      cursor: pointer;
+  }
+  a.ga-question:before {
+      content: "\f05a";
+      font-weight:300;
+      padding: 2px;
+      background: #fff;
+  }
+  a.ga-exit:before {
+      content: "\f00d";
+      font-weight:300;
+      padding: 3px;
+      background: #fff;
+  }
+  a.ga-question:hover:before{
+    opacity: 0.8;
+  } 
+  a.ga-exit:hover:before {
+      opacity: 0.8;
+      background: #212121;
+      color: #fff;
+  }
+  a.ga-question:after {
+      content: 'Quảng cáo của Camta';
+    font-size: 11px;
+    color: #212121;
+    background: #fff;
+    float: left;
+    margin-right: 5px;
+    margin-top: 2px;
+    padding: 1px 2px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease;
+  }
+
+  a.ga-question:hover:after {
+      opacity: 1;
+      visibility: visible;
+  }
+.grid-ga{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+}
