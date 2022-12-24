@@ -54,8 +54,8 @@
     font-family: 'Roboto', san-serif;
   }
   .ga-info p a:before {
-      content: "ADS";
-    background: green;
+      content: "QC";
+    background: #57956A;
     padding: 1px 3px;
     border-radius: 3px;
     color: #fff;
